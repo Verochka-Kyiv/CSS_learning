@@ -1,5 +1,112 @@
-:root {background: white;}
+:root {
+  background: white;
+}
 html {
   max-width: 720px;
   color: black;
+}
+h1 {
+  color: blue;
+}
+.green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+.box p {
+  color: red;
+}
+.box div {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
+  color: white;
+}
+/* клас V1 для того, щоб завдання не накладалися одне на одне. */
+ul > li {
+  background: red;
+}
+.header-button + span {
+  background: red;
+}
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+.salo,
+#bread {
+  background: yellow;
+}
+.first-task li:first-child {
+  color: white;
+}
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+.third-task ul:last-child li:first-child {
+  background: yellow;
+}
+.four-task li:last-child {
+  background: yellow;
+}
+.five-task ul:last-child li:last-child {
+  background: white;
+}
+
+.only-child-task div:only-child {
+  color: red;
+}
+.seven-task p:first-of-type {
+  background: red;
+}
+.eight-task p:last-of-type {
+  background: red;
+}
+.nine-task p:only-of-type {
+  background: yellow;
+}
+/* Завдання 3 */
+.lesson-three-task-one a[href] {
+  color: white;
+}
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+.lesson-three-task-three li[value='3'] {
+  background: red;
+}
+.lesson-three-task-four button[class~='primary'] {
+  background: blue;
+}
+.lesson-three-task-five button[class|='secondary'] {
+  background: red;
+}
+.lesson-three-task-six li[class^='b'] {
+  background: white;
+  color: green;
+}
+.lesson-three-task-seven li[class*='on'] {
+  background: white;
+  color: green;
+}
+.lesson-three-task-eight span[class$='s'] {
+  background: white;
+  color: blue;
+}
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+.lesson-three-task-ten p::first-line {
+  background: yellow;
+}
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+}
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+.lesson-three-task-thirteen li::after {
+  content: '➤';
 }
